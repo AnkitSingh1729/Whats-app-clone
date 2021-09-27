@@ -1,0 +1,125 @@
+.chat {
+    flex: 0.65;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat__header {
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+    /* max-height: 88px; */
+    height: auto;
+}
+
+.chat__headerInfo {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    margin-bottom: -1.5vh;
+    margin-top: -1.5vh;
+}
+
+.chat__headerInfo > h3 {
+    margin-bottom: -1vh;
+    font-weight: 500;
+}
+
+.chat__headerInfo > p {
+    color: gray;
+    font-size: 12px;
+    margin-bottom: 2.5vh;
+}
+
+.chat__message {
+    position: relative;
+    font-size: 13px;
+    padding: 5px;
+    border-radius: 710px;
+    width: fit-content;
+    background-color: #ffffff;
+    margin-bottom: 26px;
+}
+
+.chat__reciever {
+    margin-left: auto;
+    background-color: #dcf8c6;
+}
+
+.chat__timestamp {
+    margin-left: 45px;
+    font-size: xx-small;
+}
+
+.chat__name {
+    position: absolute;
+    top: -15px;
+    font-weight: 800;
+    font-size: xx-small;
+}
+
+.chat__headerRight {
+    display: flex;
+    justify-content: space-between;
+    min-width: 100px;
+}
+
+.chat__body {
+    flex: 1;
+    /* background-image: url("https:/user-images.g....."); */
+    background-repeat: repeat;
+    background-position: center;
+    padding: 80px;
+    padding-bottom: 5px;
+    overflow: scroll;
+}
+
+.chat__day {
+    background-color: rgb(70, 200, 252);
+    font-size: 14px;
+    padding: 4px 1vw;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 50px;
+    margin-left: 18vw;
+    margin-bottom: 25px;
+}
+
+.chat__footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+    border-top: 1px solid lightgray;
+}
+
+.chat__footer > form {
+    flex: 1;
+    display: flex;
+    /* background-color: blue; */
+}
+
+.chat__footer > form > input {
+    flex: 1;
+    border-radius: 30px;
+    padding: 10px;
+    border: none;
+
+}
+
+.chat__footer > form > button {
+    display: none;            /*We can still enter to send a message but we got rid of button*/
+}
+
+.chat__footer > .MuiSvgIcon-root {
+    padding: 10px;
+    color: gray;
+}
+
+.hide__stuff{
+    visibility: hidden;
+}

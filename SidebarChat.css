@@ -1,0 +1,45 @@
+.sidebarChat{
+    display: flex;  /*bring it's childs to row*/
+    padding: 5px; 
+    cursor: pointer;
+    border-bottom: 2px solid #f6f6f6;
+}
+
+.sidebarChatImg{
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.sidebarChat:hover {
+    background-color: #ebebeb;
+}
+.sidebarChat__info > div {
+    display: flex;
+    margin-bottom: 0px;
+    justify-content: space-between;
+    width: 23vw;
+}
+.sidebarChat__info > div > h2 {
+    font-size: 16px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.sidebarChat__info > div > span {
+    font-size: 11px;
+    margin-bottom: 0px;
+    margin-top: 1px;
+    color: grey;
+}
+
+.sidebarChat__info {
+    margin-left: 15px;
+}
+
+.sidebarChat__info > span{
+    color: grey;
+    font-size: 12px;
+}
